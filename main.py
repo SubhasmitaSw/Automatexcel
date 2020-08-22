@@ -59,13 +59,8 @@ def takeCommand():
 
 """
 def writeExcel(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 535)
-    server.ehlo()
-    server.starttls()
-    server.login(' chikki81166@gmail.com', 'chikki@232')
-    server.sendmail('chikki81166@gmail.com', to, content)
-    server.close()
-    """
+   
+"""
 
 
 excel_file = 'C:\\Users\\SUBHASMITA\\Desktop\\Python Projects\\automating excel sheets by voice\\Workbook1.xlsx'
@@ -104,10 +99,10 @@ if __name__ == "__main__":
 
 
 
-        #elif 'write excel' in query:
+        elif 'write excel' in query:
             speak("which excel file do you want to edit")
                 
-            """    
+                
                 
         elif 'sheet 1' in query:
             speak('opening excel file named workbook1')
@@ -118,10 +113,10 @@ if __name__ == "__main__":
             speak('opening workbook2')
             book2Path ="C:\\Users\\SUBHASMITA\\Desktop\\automating excel sheets by voice"
             os.startfile(book2Path)
-            """
+        
 
             
- 
+        #general query part
 
         elif 'introduce yourself' in query:
             strintro = ('i am exenor and i am here to help you') 
