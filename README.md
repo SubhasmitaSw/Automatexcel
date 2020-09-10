@@ -3,13 +3,23 @@ The initial purpose of this Project was to ease the monotonous and strainful tas
 
 # Automatexcel
 This Project enumerates an attempt to simplify and automate the task of accessing the desired data across various excel files over voice search technique.
-It uses GOOGLE DOCUMENT AI API to intelligently extract and parse tables and forms and retrieve data in a simple textable format.
+Document AI api is used to intelligently extract and parse tables and forms and retrieve data in a simple textable format.
+
+## Language
+*Python
+
+#### Dependencies
+*Pandas
+
+*Numpy
+
+*OS
+
 
 ## Technology 
-*Text to Speech - WaveNet Voices
+*Text to Speech 
 
 *Document AI Api
 
 *Python Scripts
 
-*Machine Learning to train model to parse relevant texts for conversion.(To be used)
