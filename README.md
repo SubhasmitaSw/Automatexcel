@@ -10,4 +10,6 @@ It uses GOOGLE DOCUMENT AI API to intelligently extract and parse tables and for
 
 *Document AI Api
 
-*Machine Learning to train model to parse relevant texts for conversion.
+*Python Scripts
+
+*Machine Learning to train model to parse relevant texts for conversion.(To be used)
